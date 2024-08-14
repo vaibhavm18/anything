@@ -1,5 +1,11 @@
+import UploadFile from "./components/UploadFile";
+import {Toaster} from "sonner"
+
 export default function App() {
   return (
-    <main className="bg-red-500">Hello God!</main>
+    <main className="flex items-center justify-center w-full h-screen">
+      <UploadFile />
+      <Toaster />
+    </main>
   )
 }
